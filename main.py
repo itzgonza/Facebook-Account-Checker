@@ -68,6 +68,7 @@ class FacebookBot:
             time.sleep(5)
 
             if "https://www.facebook.com/" == self.driver.url:
+                self.write_to_file('/path/to/work_accounts.txt', acc)
                 print(f"work -> {acc}")
 
             self.driver.close()
