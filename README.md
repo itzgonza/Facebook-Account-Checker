@@ -1,2 +1,3 @@
 # Facebook-Account-Checker
-a simple facebook checker with DrissionPage (without proxy, rate unlimited)
+this project is template, this code only checks true/false in password. can check this in full-capture if you want
+ - modules to develop: [DrissionPage](https://pypi.org/project/DrissionPage/1.6.1)
